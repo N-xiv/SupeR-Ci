@@ -21,6 +21,6 @@ jobs:
            bash initialize
     - name: Starting For Building Your Kernel...
       run: |
-           git clone --depth=1 https://github.com/SoniC-XIV/SupeRSoniC_V2 -b master SONIC
+           git clone --depth=1 https://github.com/vantoman/kernel_xiaomi_sm6150 -b 13 SONIC
            cp sonic-compiler.sh SONIC && cd SONIC
            chmod +x sonic-compiler.sh && bash sonic-compiler.sh
